@@ -1,1 +1,4 @@
-alert('redireccionado');
+var miVentana = window;
+function cerrarVentana(){
+    miVentana.close();
+}
