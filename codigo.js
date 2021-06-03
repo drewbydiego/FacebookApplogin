@@ -3,5 +3,8 @@ var ancho;
 var alto;
 BTN_INICIO.addEventListener('click',function(){
     window.open("index.html", "Log", ancho = window.innerWidth,alto = window.innerHeight);
-   window.close();
+    //
+    setTimeout(function(){
+        window.close();
+    },2000);
 });
