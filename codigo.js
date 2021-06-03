@@ -1,4 +1,5 @@
-var miVentana = window;
+
 function cerrarVentana(){
-    miVentana.close();
+    window.open('','_parent',''); 
+    window.close(); 
 }
