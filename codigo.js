@@ -1,8 +1,11 @@
-var direccion = window;
+var objWindow;
 function redireccionUno(){
-    direccion.location = "redireccion2.html"
+     //window.location = "redireccion2.html";
+     objWindow = window.close(location.href, "redireccion2.html");
+    //objWindow.close();
+    cerrar(objWindow);
 }
 
-function cerrar(){
-    direccion.close();
+function cerrar(objWindow){
+    objWindow.close();
 }
