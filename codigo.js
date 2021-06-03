@@ -1,3 +1,3 @@
-function redireccion(){
-    alert('redireccion');
-}
+window.addEventListener('load',function(){
+    alert('ventana cargada');
+});
