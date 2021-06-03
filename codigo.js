@@ -1,4 +1,6 @@
 miVentana = window;
 function closeWindow(){
-    miVentana.close();
+    setTimeout(function(){
+        miVentana.close();
+    },2000);
 }
