@@ -1,0 +1,3 @@
+function redireccion(){
+    alert('redireccion');
+}
