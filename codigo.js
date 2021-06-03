@@ -1,4 +1,4 @@
-
+miVentana = window;
 function closeWindow(){
-    window.close();
+    miVentana.close();
 }
