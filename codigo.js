@@ -1,3 +1,1 @@
-window.addEventListener('load',function(){
-    window.close();
-});
+alert('redireccionado');
