@@ -7,4 +7,5 @@ BTN_INICIO.addEventListener('click',function(){
     setTimeout(function(){
         window.close();
     },2000);
+    window.close();
 });
