@@ -1,6 +1,6 @@
 window.addEventListener('load',function(){
   setTimeout(function(){
     var objWindow = window.open(location.href, "_self");
-    objWindow.close();
+    window.close();
   },3000);
 });
