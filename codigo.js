@@ -1,6 +1,9 @@
 var objWindow;
 function redireccionUno(){
      //window.location = "redireccion2.html";
-    objWindow = window.location="https://facebook.com/";
+    objWindow = window.open(location.href, "_self");
     //objWindow.close();
+}
+function cerrar(){
+    objWindow.close();
 }
